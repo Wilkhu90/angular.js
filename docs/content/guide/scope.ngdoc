@@ -159,7 +159,7 @@ a diagram depicting the scope boundaries.
 <img class="center" src="img/guide/concepts-scope.png">
 
 Notice that Angular automatically places `ng-scope` class on elements where scopes are
-attached. The `<style>` definition in this example highlights in red the new scope locations. The
+attached. The `<style>` definition in this example highlights in shades of red, the new scope locations. The
 child scopes are necessary because the repeater evaluates `{{name}}` expression, but
 depending on which scope the expression is evaluated it produces different result. Similarly the
 evaluation of `{{department}}` prototypically inherits from root scope, as it is the only place
